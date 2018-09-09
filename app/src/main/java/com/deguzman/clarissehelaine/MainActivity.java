@@ -1,0 +1,14 @@
+package com.deguzman.clarissehelaine;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setTitle("Linear Layout");
+        setContentView(R.layout.activity_main);
+    }
+}
